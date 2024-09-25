@@ -1,7 +1,7 @@
 name: Release Build Workflow
 on:
   release:
-    types: [created]
+    types: [created, released, edited, published]
   
 permissions:
   contents: write
